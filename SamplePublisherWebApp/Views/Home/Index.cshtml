@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Data From The Publisher Graph";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+            </hgroup>
+            <pre>@ViewBag.Message</pre>
+            <pre>@ViewBag.Token</pre>
+        </div>
+    </section>
+
+}
+<section class="add">
+    <form method="post">
+        <div><label>Email <input type="text" name="email" /></label></div>
+        <div><label>Birthday <input type="text" name="birthday" /></label></div>
+        <div><label>Account ID <input type="text" name="accountId" /></label></div>
+        <input type="submit" value="Add" name="add"/>
+        <input type="submit" value="Delete" name="delete"/>
+    </form>
+</section>
+

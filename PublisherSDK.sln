@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48EFABAE-2EDD-48D7-92EB-E23CC06A3552}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		PublisherSDK.vsmdi = PublisherSDK.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherSDK", "PublisherSDK\PublisherSDK.csproj", "{92B8303E-2969-477F-B77A-17A23B41083D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherSDKTests", "PublisherSDKTests\PublisherSDKTests.csproj", "{9443F9C1-C04F-4FEA-A32D-CF407826547A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamplePublisherWebApp", "SamplePublisherWebApp\SamplePublisherWebApp.csproj", "{7AD55944-6050-435D-9C4C-09E523A76D7F}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PublisherSDK.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92B8303E-2969-477F-B77A-17A23B41083D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B8303E-2969-477F-B77A-17A23B41083D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B8303E-2969-477F-B77A-17A23B41083D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B8303E-2969-477F-B77A-17A23B41083D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9443F9C1-C04F-4FEA-A32D-CF407826547A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9443F9C1-C04F-4FEA-A32D-CF407826547A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9443F9C1-C04F-4FEA-A32D-CF407826547A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9443F9C1-C04F-4FEA-A32D-CF407826547A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD55944-6050-435D-9C4C-09E523A76D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD55944-6050-435D-9C4C-09E523A76D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD55944-6050-435D-9C4C-09E523A76D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD55944-6050-435D-9C4C-09E523A76D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
