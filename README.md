@@ -108,10 +108,10 @@ JsonDictionary params = new JsonDictionary();
 params.add('players', players);
 
 // the standard way
-GraphResponse = sdk.Post("[publisher_id]/playersClub", params);
+GraphResponse response = sdk.Post("[publisher_id]/playersClub", params);
 
 // shorter with no publisher_id
-GraphResponse = sdk.Pub.PlayersClub.Post(params);
+GraphResponse response = sdk.Pub.PlayersClub.Post(params);
 </pre></div>
 
 * * *
