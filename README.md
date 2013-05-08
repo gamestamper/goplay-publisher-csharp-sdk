@@ -1,15 +1,15 @@
-GoPlay Publisher C# SDK
+GoPlay Publisher C# 4+ SDK
 ========================
 
-Our Publisher C# SDK lets you access our Graph API in as little as one line.
+Our Publisher C# 4+ SDK lets you access our Graph API in as little as one line.
 
-You can download the [GoPlay Publisher C# SDK](https://github.com/gamestamper/goplay-publisher-csharp-sdk) from GitHub [here](https://github.com/gamestamper/goplay-publisher-csharp-sdk).
+You can download the [GoPlay Publisher C# 4+ SDK](https://github.com/gamestamper/goplay-publisher-csharp-sdk) from GitHub [here](https://github.com/gamestamper/goplay-publisher-csharp-sdk).
 
 * * *
 
 ## Installing and Initializing
 
-To install the Publisher C# SDK, extract and download the files and copy the files from the `PublisherSDK/` directory to a directory on the server where you will host your app, for example `csharp-sdk`. Add `using` statements for both the `GoPlay` and `GoPlay.Serialization` namespaces. Finally, create a new `PublisherSDK` object, passing your Publisher ID and Publisher Secret.
+To use the Publisher C# 4+ SDK, extract and download the files and copy the files from the `PublisherSDK/` directory to a directory on the server where you will host your app, for example `csharp-sdk`. Add `using` statements for both the `GoPlay` and `GoPlay.Serialization` namespaces. Finally, create a new `PublisherSDK` object, passing your Publisher ID and Publisher Secret.
 
 <div class="preWide"><pre>
 using GoPlay;
