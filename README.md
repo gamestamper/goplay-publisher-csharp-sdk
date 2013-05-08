@@ -93,7 +93,7 @@ response = response.Previous();
 
 ## Posting Data
 
-Posting to the Graph API works almost identically to how getting data works. Instead of calling `get`, we instead call `post`. The following shows how to post some data (in this case users) to the graph:
+Posting to the Graph API works almost identically to how getting data works. Instead of calling `Get`, we instead call `Post`. The following shows how to post some data (in this case users) to the graph:
 
 <div class="preWide"><pre>
 using GoPlay;
